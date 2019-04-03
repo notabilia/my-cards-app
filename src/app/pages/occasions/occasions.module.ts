@@ -3,6 +3,7 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { ComingSoonComponentModule } from '../../components/coming-soon/coming-soon.module';
 import { OccasionsPage } from './occasions.page';
 
 @NgModule({
@@ -10,8 +11,11 @@ import { OccasionsPage } from './occasions.page';
     IonicModule,
     CommonModule,
     FormsModule,
+    ComingSoonComponentModule,
     RouterModule.forChild([{ path: '', component: OccasionsPage }])
   ],
-  declarations: [OccasionsPage]
+  declarations: [
+    OccasionsPage
+  ]
 })
 export class OccasionsPageModule {}

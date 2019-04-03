@@ -9,8 +9,12 @@ describe('Home', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [Home],
-      schemas: [CUSTOM_ELEMENTS_SCHEMA],
+      declarations: [
+        Home
+      ],
+      schemas: [
+        CUSTOM_ELEMENTS_SCHEMA
+      ],
     }).compileComponents();
   }));
 

@@ -9,8 +9,12 @@ describe('CardsPage', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [CardsPage],
-      schemas: [CUSTOM_ELEMENTS_SCHEMA],
+      declarations: [
+        CardsPage
+      ],
+      schemas: [
+        CUSTOM_ELEMENTS_SCHEMA
+      ],
     }).compileComponents();
   }));
 
